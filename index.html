@@ -29,8 +29,9 @@
 </head>
 
 <body>
-    <header>
-        <nav class="absolute w-full h-14  flex justify-center md:justify-between   items-center px-11 font-oswald uppercase">
+    <header class="fixed w-full  z-40 ">
+        <nav
+            class=" h-14  flex justify-center md:justify-between shadow-xl  bg-white border border-black  items-center px-11 font-oswald uppercase">
             <span>
                 <h1 class="text-2xl font-bold  ">
                     Influencer Products
@@ -40,20 +41,21 @@
                 <ul class="flex gap-5 text-sm hidden md:flex">
                     <li><a class="hover:border-b-4 border-black transition-all" href="#">Home</a></li>
                     <li><a class="hover:border-b-4 border-black transition-all" href="#">Products</a></li>
-                    <li><a class="hover:border-b-4 border-black transition-all"  href="#">Sign up</a></li>
-                    <li><a class="hover:border-b-4 border-black transition-all" href="#">Login</a></li>
-                    <li><a  href="#"><i class="hover:rotate-12 hover:scale-150 transition-all fa fa-search"></i></a></li>
-                    <li><a  href="#"><i class="hover:rotate-12 hover:scale-150 transition-all fa fa-shopping-cart"></i></a></li>
+                    <li><a class="hover:border-b-4 border-black transition-all" href="#">Sign up</a></li>
+                    <li><a class="hover:border-b-4 border-black  transition-all" href="#">Login</a></li>
+                    <li><a href="#"><i class="hover:rotate-12 hover:scale-150 transition-all fa fa-search"></i></a></li>
+                    <li><a href="#"><i
+                                class="hover:rotate-12 hover:scale-150 transition-all fa fa-shopping-cart"></i></a></li>
 
                 </ul>
             </span>
         </nav>
     </header>
     <main>
-        </h1>
+
         <section>
             <div
-                class="pt-14 h-screen px-12 lg:px-24 bg-top lg:bg-right flex items-center justify-center lg:justify-between flex-col lg:flex-row">
+                class="bg-white pt-14 h-screen px-12 lg:px-24 bg-top lg:bg-right flex items-center justify-center lg:justify-between flex-col lg:flex-row">
                 <div class="w-full lg:w-2/4 order-2 lg:order-1">
                     <h1 class="text-3xl lg:text-5xl font-oswald uppercase font-semibold mb-2">
                         Start your journey as
@@ -67,20 +69,420 @@
                         Asperiores, accusantium rem!
                     </p>
                     <button
-                        class="font-oswald text-sm lg:order-2  flex items-center bg-pink-700 rounded-full px-5 py-2 text-white  mt-3  transition ease-in-out delay-150 hover:brightness-150 ">
+                        class="font-oswald text-sm lg:order-2  flex items-center border-black border-2 bg-yellow-400 rounded-full px-5 py-2 text-black  mt-3  transition ease-in-out delay-150 hover:brightness-150 ">
                         <span>Preebook Now</span> <i
                             class="ml-2 fa fa-arrow-right  hover:rotate-180 transition-all"></i>
                     </button>
                 </div>
                 <div class="order-1 relative flex items-center">
-                    <img src="images/main-camera.png" class="absolute hover:rotate-12 transition-all " alt="">
+                    <img src="images/main-camera.png" class="absolute hover:rotate-12 transition-all z-10" alt="">
                     <img src="images/circle.svg" alt="">
                 </div>
-               
-
             </div>
 
         </section>
+        <section>
+
+            <div
+                class="h-auto mx-auto w-8/12 mt-10 border-y-2 border-slate-200  py-5 flex justify-center gap-10 flex-wrap">
+                <img src="logos/Alibaba.svg" alt="">
+                <img src="logos/Amazon.svg" alt="">
+                <img src="logos/Daraz.pk Logo.svg" alt="">
+                <img src="logos/Ebay.svg" alt="">
+                <img src="logos/Rakuten.svg" alt="">
+                <img src="logos/Target.svg" alt="">
+                <img src="logos/Walmart.svg" alt="">
+            </div>
+        </section>
+        <section>
+            <div class="mt-14 font-oswald">
+                <h1 class="text-2xl uppercase text-center font-oswald">
+                    Popular Products
+                </h1>
+                <div class="grid gap-6 w-3/4 mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3  pt-10">
+
+                    <div
+                        class="flex justify-center flex-col gap-4 shadow-lg border-2 border-slate-200 p-2 cursor-pointer">
+
+                        <img src="images/action.png" alt="">
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl">Action Camera</h1>
+                        <span>
+                            <h2 class="text-xl md:text-2xl lg:text-3xl">
+                                $ 53
+                            </h2>
+                        </span>
+                        <div class="flex justify-between w-2/4 text-xs md:text-xs">
+                            <span class="text-yellow-400">
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star-half">
+                                </i>
+                            </span>
+                            <span class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all">
+                                4.5/5
+                            </span>
+                        </div>
+                        <div class="w-3/4 text-sm ">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet totam tempore dolorem
+                                labore, architecto doloribus?
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                    class="flex justify-center flex-col gap-4 shadow-lg border-2 border-slate-200 p-2 cursor-pointer">
+
+                    <img src="images/action.png" alt="">
+                    <h1 class="text-2xl md:text-3xl lg:text-4xl">Action Camera</h1>
+                    <span>
+                        <h2 class="text-xl md:text-2xl lg:text-3xl">
+                            $ 53
+                        </h2>
+                    </span>
+                    <div class="flex justify-between w-2/4 text-xs md:text-xs">
+                        <span class="text-yellow-400">
+                            <i
+                                class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                            </i>
+                            <i
+                                class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                            </i>
+                            <i
+                                class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                            </i>
+                            <i
+                                class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                            </i>
+                            <i
+                                class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                            </i>
+                            <i
+                                class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star-half">
+                            </i>
+                        </span>
+                        <span class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all">
+                            4.5/5
+                        </span>
+                    </div>
+                    <div class="w-3/4 text-sm ">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet totam tempore dolorem
+                            labore, architecto doloribus?
+                        </p>
+                    </div>
+                </div>
+                <div
+                        class="flex justify-center flex-col gap-4 shadow-lg border-2 border-slate-200 p-2 cursor-pointer">
+
+                        <img src="images/action.png" alt="">
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl">Action Camera</h1>
+                        <span>
+                            <h2 class="text-xl md:text-2xl lg:text-3xl">
+                                $ 53
+                            </h2>
+                        </span>
+                        <div class="flex justify-between w-2/4 text-xs md:text-xs">
+                            <span class="text-yellow-400">
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star-half">
+                                </i>
+                            </span>
+                            <span class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all">
+                                4.5/5
+                            </span>
+                        </div>
+                        <div class="w-3/4 text-sm ">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet totam tempore dolorem
+                                labore, architecto doloribus?
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-center flex-col gap-4 shadow-lg border-2 border-slate-200 p-2 cursor-pointer">
+
+                        <img src="images/action.png" alt="">
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl">Action Camera</h1>
+                        <span>
+                            <h2 class="text-xl md:text-2xl lg:text-3xl">
+                                $ 53
+                            </h2>
+                        </span>
+                        <div class="flex justify-between w-2/4 text-xs md:text-xs">
+                            <span class="text-yellow-400">
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star-half">
+                                </i>
+                            </span>
+                            <span class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all">
+                                4.5/5
+                            </span>
+                        </div>
+                        <div class="w-3/4 text-sm ">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet totam tempore dolorem
+                                labore, architecto doloribus?
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-center flex-col gap-4 shadow-lg border-2 border-slate-200 p-2 cursor-pointer">
+
+                        <img src="images/action.png" alt="">
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl">Action Camera</h1>
+                        <span>
+                            <h2 class="text-xl md:text-2xl lg:text-3xl">
+                                $ 53
+                            </h2>
+                        </span>
+                        <div class="flex justify-between w-2/4 text-xs md:text-xs">
+                            <span class="text-yellow-400">
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star-half">
+                                </i>
+                            </span>
+                            <span class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all">
+                                4.5/5
+                            </span>
+                        </div>
+                        <div class="w-3/4 text-sm ">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet totam tempore dolorem
+                                labore, architecto doloribus?
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-center flex-col gap-4 shadow-lg border-2 border-slate-200 p-2 cursor-pointer">
+
+                        <img src="images/action.png" alt="">
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl">Action Camera</h1>
+                        <span>
+                            <h2 class="text-xl md:text-2xl lg:text-3xl">
+                                $ 53
+                            </h2>
+                        </span>
+                        <div class="flex justify-between w-2/4 text-xs md:text-xs">
+                            <span class="text-yellow-400">
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star-half">
+                                </i>
+                            </span>
+                            <span class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all">
+                                4.5/5
+                            </span>
+                        </div>
+                        <div class="w-3/4 text-sm ">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet totam tempore dolorem
+                                labore, architecto doloribus?
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-center flex-col gap-4 shadow-lg border-2 border-slate-200 p-2 cursor-pointer">
+
+                        <img src="images/action.png" alt="">
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl">Action Camera</h1>
+                        <span>
+                            <h2 class="text-xl md:text-2xl lg:text-3xl">
+                                $ 53
+                            </h2>
+                        </span>
+                        <div class="flex justify-between w-2/4 text-xs md:text-xs">
+                            <span class="text-yellow-400">
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star-half">
+                                </i>
+                            </span>
+                            <span class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all">
+                                4.5/5
+                            </span>
+                        </div>
+                        <div class="w-3/4 text-sm ">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet totam tempore dolorem
+                                labore, architecto doloribus?
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-center flex-col gap-4 shadow-lg border-2 border-slate-200 p-2 cursor-pointer">
+
+                        <img src="images/action.png" alt="">
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl">Action Camera</h1>
+                        <span>
+                            <h2 class="text-xl md:text-2xl lg:text-3xl">
+                                $ 53
+                            </h2>
+                        </span>
+                        <div class="flex justify-between w-2/4 text-xs md:text-xs">
+                            <span class="text-yellow-400">
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star-half">
+                                </i>
+                            </span>
+                            <span class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all">
+                                4.5/5
+                            </span>
+                        </div>
+                        <div class="w-3/4 text-sm ">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet totam tempore dolorem
+                                labore, architecto doloribus?
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-center flex-col gap-4 shadow-lg border-2 border-slate-200 p-2 cursor-pointer">
+
+                        <img src="images/action.png" alt="">
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl">Action Camera</h1>
+                        <span>
+                            <h2 class="text-xl md:text-2xl lg:text-3xl">
+                                $ 53
+                            </h2>
+                        </span>
+                        <div class="flex justify-between w-2/4 text-xs md:text-xs">
+                            <span class="text-yellow-400">
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star">
+                                </i>
+                                <i
+                                    class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all  fa fa-star-half">
+                                </i>
+                            </span>
+                            <span class="hover:rotate-12 hover:brightness-150 hover:scale-150 transition-all">
+                                4.5/5
+                            </span>
+                        </div>
+                        <div class="w-3/4 text-sm ">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet totam tempore dolorem
+                                labore, architecto doloribus?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </main>
 
 </body>
